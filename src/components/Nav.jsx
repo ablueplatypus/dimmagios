@@ -1,12 +1,15 @@
 import React from 'react';
 import {Nav, Navbar, Button, Form, FormControl} from 'react-bootstrap';
+import DrawerToggleBtn from './DrawerToggleBtn.js';
 import './nav.css';
+
 
 const NavigationBar = () => {
 
   return (
     <div>
     <Navbar className="navbar-custom ">
+    <DrawerToggleBtn />
       <Navbar.Brand href="/">Dimmagios</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
